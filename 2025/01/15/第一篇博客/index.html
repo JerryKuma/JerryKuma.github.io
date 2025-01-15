@@ -28,7 +28,7 @@
 <meta property="og:description" content="这是一篇关于Hexo搭建和美化的教程。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-01-15T15:49:40.000Z">
-<meta property="article:modified_time" content="2025-01-15T16:12:21.751Z">
+<meta property="article:modified_time" content="2025-01-15T16:52:57.944Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="技术文档">
@@ -183,7 +183,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2025-01-16 00:12:21" itemprop="dateModified" datetime="2025-01-16T00:12:21+08:00">2025-01-16</time>
+                <time title="Modified: 2025-01-16 00:52:57" itemprop="dateModified" datetime="2025-01-16T00:52:57+08:00">2025-01-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -207,7 +207,22 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Hexo搭建教程"><a href="#Hexo搭建教程" class="headerlink" title="Hexo搭建教程"></a>Hexo搭建教程</h1>
+        <h1 id="Hexo搭建教程"><a href="#Hexo搭建教程" class="headerlink" title="Hexo搭建教程"></a>Hexo搭建教程</h1><p>默认已经搭建好了所有的环境</p>
+<h2 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo server //启动本地服务器</span><br><span class="line">hexo new &quot;我的第一篇博客&quot; //创建博客 在./sources/_posts中查看.md文档</span><br></pre></td></tr></table></figure>
+
+<h2 id="编辑文档"><a href="#编辑文档" class="headerlink" title="编辑文档"></a>编辑文档</h2><p>用 Markdown 编辑器打开 <code>.md</code> 文件，编写内容。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: 2023-10-01 14:30:00</span><br><span class="line">updated: 2023-10-02 10:00:00</span><br><span class="line">tags:</span><br><span class="line">  - 标签1</span><br><span class="line">  - 标签2</span><br><span class="line">categories:</span><br><span class="line">  - 分类1</span><br><span class="line">  - 分类2</span><br><span class="line">description: 这是文章的简短描述，通常用于 SEO 或文章列表页。</span><br><span class="line">cover: /images/cover.jpg 背景</span><br><span class="line">comments: true 评论</span><br><span class="line">toc: true 目录</span><br><span class="line">sticky: 100 优先级</span><br><span class="line">mathjax: false MathJax渲染数学公式</span><br><span class="line">password: 123456 </span><br><span class="line">hide: false</span><br><span class="line">layout: post</span><br><span class="line">permalink: my-custom-url</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"># 文章内容从这里开始</span><br><span class="line"></span><br><span class="line">这是文章的正文部分，使用 Markdown 语法编写。</span><br></pre></td></tr></table></figure>
+
+<h2 id="上传博客"><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h2><p>编辑完成后，生成静态文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>进入hexo项目根目录，运行以下命令部署：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>访问<code>https://用户名.github.io</code>查看部署后的博客。</p>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>首先在根目录git clone美化主题，再修改_config.yaml中的theme字段，注意空格与缩进。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>hexo+github page可以实现零成本，可维护的web个人博客，后续功能以后再实现。</p>
+
     </div>
 
     
@@ -289,7 +304,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">Hexo搭建教程</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">Hexo搭建教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1"><span class="nav-number">1.1.</span> <span class="nav-text">启动服务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E6%96%87%E6%A1%A3"><span class="nav-number">1.2.</span> <span class="nav-text">编辑文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8A%E4%BC%A0%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.3.</span> <span class="nav-text">上传博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BE%8E%E5%8C%96"><span class="nav-number">1.4.</span> <span class="nav-text">美化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">1.5.</span> <span class="nav-text">结语</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
